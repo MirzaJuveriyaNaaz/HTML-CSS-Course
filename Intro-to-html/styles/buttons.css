@@ -1,0 +1,71 @@
+
+.Subscribe-button{
+        background-color: #CC0000;
+        color: white;
+        border: none;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left:16px;
+        padding-right:16px;
+        border-radius: 2px;
+        vertical-align:top;
+        cursor:pointer;
+        transition:opacity 0.15s;
+        
+        
+    }
+.Subscribe-button:hover{
+    /* inside these styles will only apply if we hover over the button*/
+    opacity:0.6;
+}
+.Subscribe-button:active{
+   opacity:0.5;
+}
+
+    .Join-button{
+        background-color:white;
+        color:rgb(6,95,212);
+        border-color:rgb(6, 95, 212);
+        border-style: solid;
+        border-radius:2px;
+        border-width:1px;
+        padding-top:7px;
+        padding-bottom:7px;
+        padding-left:16px;
+        padding-right:16px;
+        margin-left: 8px;
+        cursor:pointer;
+        /*transition: background-color 1s,color 1s;*/
+        
+    }
+    .Join-button:hover{
+        /*these styles woud only apply if we hover over the join button*/
+        background-color:rgb(6,95,212);
+        color:white;
+        transition: background-color 0.15s,color 0.15s; 
+        
+    }
+    .Join-button:active{
+        opacity:0.7;
+    }
+
+    .Tweet-button{
+        background-color:rgb(29,155,240);        
+        color:white;
+        border:none;
+        border-radius: 18px;
+        font-weight:bold;
+        font-size:15px;
+        margin-left: 8px;
+        cursor:pointer;
+        vertical-align: top;
+        padding-left:16px;
+        padding-right:16px;
+        padding-top:10px;
+        padding-bottom:10px;
+        transition:box-shadow 0.15s;
+    }    
+    .Tweet-button:hover{
+        box-shadow:5px 5px 15px rgba(0,0,0,0.15);
+    }
+    

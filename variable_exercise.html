@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Variable Exercise</title>
+  </head>
+  <body>
+    <p>Cart Quantity</p>
+    <button onclick="
+    CartQuantity=0;
+    console.log(`Cart Quantity: ${CartQuantity}`)";>Show Quantity</button>
+    <button onclick="
+    CartQuantity=CartQuantity+1;
+    console.log(`Cart Quantity: ${CartQuantity}`)";
+    >Add to cart</button>
+    <button onclick=" CartQuantity=CartQuantity+2;
+    console.log(`Cart Quantity: ${CartQuantity}`)";
+    >+2</button>
+    <button onclick="
+    CartQuantity=CartQuantity+3;
+    console.log(`Cart Quantity: ${CartQuantity}`)";>+3</button>
+    <button onclick="
+    CartQuantity=0;
+    console.log(`The cart was reset`);
+    console.log(`Cart Quantity: ${CartQuantity}`)";>Reset Cart</button>
+    <script>let CartQuantity=0;</script>
+  </body>
+</html>
